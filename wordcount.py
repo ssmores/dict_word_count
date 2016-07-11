@@ -39,4 +39,4 @@ def counting_words(filename):
     small_text_file.close()
 
     for word, word_count_value in word_count.iteritems():
-        print "%s: %d" % (word, word_count_value)
+        return "%s: %d" % (word, word_count_value)
